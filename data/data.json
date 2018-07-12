@@ -1,3 +1,21 @@
 {
-    "rasa_nlu_data":[]
+    "rasa_nlu_data":{
+        "common_examples": [
+            {
+              "text": "Hello",
+              "intent": "greet",
+              "entities": []
+            },
+            {
+              "text": "goodbye",
+              "intent": "goodbye",
+              "entities": []
+            },
+            {
+              "text": "Okay I'd like to take a quiz",
+              "intent": "start_quiz",
+              "entities": []
+            }
+        ]
+    }
 }
