@@ -28,7 +28,7 @@ templates:
   
 actions:
   - utter_goodbye
-  - utter_goodbye
+  - utter_greet
   - utter_ask_topic
   - actions.ActionListTopics
   - actions.ActionAskQuestion

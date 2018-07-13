@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
-class SpideySpider(scrapy.Spider):
-    name = 'spidey'
-    allowed_domains = ['https://hqbuff.com/game/2018-07-10/3']
-    start_urls = ['https://hqbuff.com/game/2018-07-10/3']
+
+class QuizSpider(scrapy.Spider):
+    name = 'quiz'
+    allowed_domains = ['hqbuff.com']
+    start_urls = ['http://hqbuff.com/game/2018-05-08/1']
 
     def parse(self, response):
         blocks = response.xpath('//*[@class="question"]')
@@ -24,4 +25,7 @@ class SpideySpider(scrapy.Spider):
             yield{'Question': questions,
                   'Options': options,
                   'Answer': answers }
-       
+        
+        '''next_page_url = response.xpath('/html/body/div[1]/ul/li[3]/a/@href').extract()
+        abs_next_page_url = response.urljoin(next_page_url)
+        yield scrapy.Request(abs_next_page_url)'''
