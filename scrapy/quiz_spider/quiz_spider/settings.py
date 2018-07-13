@@ -64,9 +64,14 @@ DOWNLOAD_DELAY = 3
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'quiz_spider.pipelines.QuizSpiderPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'quiz_spider.pipelines.MongoDBPipeline': 300,
+}
+
+MONGODB_SERVER = 'localhost'
+MONGODB_PORT = 27017
+MONGODB_DB = 'quiz'
+MONGODB_COLLECTION = 'quiz_corpus'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
