@@ -1,12 +1,16 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from scrapy.spiders import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
 
-
-class QuizSpider(scrapy.Spider):
+class QuizSpider(CrawlSpider):
     name = 'quiz'
     allowed_domains = ['hqbuff.com']
-    start_urls = ['http://hqbuff.com/game/2018-05-08/1']
+    start_urls = ['https://hqbuff.com/game/2018-07-13']
 
+    rules = (
+        Rule(LinkExtractor(), callback='parse', follow=True),
+    )
     def parse(self, response):
         blocks = response.xpath('//*[@class="question"]')
         for block in blocks:
@@ -14,18 +18,11 @@ class QuizSpider(scrapy.Spider):
             options = block.xpath('.//ul[@class="questions"]/li/text()').extract()
             answers = block.xpath('.//*[@class="questions__correct"]/text()').extract_first()
 
-            '''
-            print ('\n')
-            print(questions)
-            print(options)
-            print(answers)
-            print('\n')
-            '''
-
             yield{'Question': questions,
                   'Options': options,
                   'Answer': answers }
-        
-        '''next_page_url = response.xpath('/html/body/div[1]/ul/li[3]/a/@href').extract()
+
+        #Get next page url 
+        next_page_url = response.xpath('//*[@class="nav-item"]/a/@href').extract_first()
         abs_next_page_url = response.urljoin(next_page_url)
-        yield scrapy.Request(abs_next_page_url)'''
+        yield scrapy.Request(abs_next_page_url)
