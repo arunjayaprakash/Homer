@@ -9,15 +9,22 @@ from pymongo import MongoClient
 client = MongoClient()
 db = client.homer_db1
 
+import random
+ 
+def get_random_Q(coll):
+    # coll refers to your collection
+    count = db.coll.count()
+    return coll.find()[random.randrange(count)]
+
 
 class ActionAskQuestion(Action):
     def name(self):
         return 'action_askquestion'
     def run(self, dispatcher, tracker, domain):
         topic = tracker.get_slot('topic')
-        doc=db.topic.aggregate({$sample:{size:1}})
-        dispatcher.utter_message(doc["Question"])
-        dispatcher.utter_message(doc["Options"])
+        Q = get_random_Q(topic)
+        dispatcher.utter_message(Q["Question"])
+        dispatcher.utter_message(Q["Options"])
         return
 
 
