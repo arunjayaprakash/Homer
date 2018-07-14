@@ -1,0 +1,168 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "start_quiz",
+        "text": "Okay I'd like to take a quiz"
+      },
+      {
+        "intent": "start_quiz",
+        "text": "Start quiz"
+      },
+      {
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Movies",
+            "entity": "topic"
+          }
+        ],
+        "text": "Movies"
+      },
+      {
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sports",
+            "entity": "topic"
+          }
+        ],
+        "text": "Sports"
+      },
+      {
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Science",
+            "entity": "topic"
+          }
+        ],
+        "text": "Science"
+      },
+      {
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "sports",
+            "entity": "topic"
+          }
+        ],
+        "text": "Give me a quiz about sports"
+      },
+      {
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Option C",
+            "entity": "answer"
+          }
+        ],
+        "text": "Option C"
+      },
+      {
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "B",
+            "entity": "answer"
+          }
+        ],
+        "text": "B"
+      },
+      {
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "option a",
+            "entity": "answer"
+          }
+        ],
+        "text": "I choose option a"
+      },
+      {
+        "intent": "start_quiz",
+        "text": "Hey start a quiz "
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "greet",
+        "text": "hey Homer"
+      },
+      {
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "option A",
+            "entity": "answer"
+          }
+        ],
+        "text": "i choose option A abraham lincoln"
+      },
+      {
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Wakanda",
+            "entity": "answer"
+          }
+        ],
+        "text": "Wakanda"
+      },
+      {
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "3 degrees Kelvin",
+            "entity": "answer"
+          }
+        ],
+        "text": "3 degrees Kelvin"
+      },
+      {
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "France ",
+            "entity": "answer"
+          }
+        ],
+        "text": "France "
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
