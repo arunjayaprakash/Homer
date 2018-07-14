@@ -14,7 +14,7 @@ import random
 def get_random_Q(coll):
     # coll refers to your collection
     count = db.coll.count()
-    return coll.find()[random.randrange(count)]
+    return coll.find()[random.randrange(count)] #ensure Q doesnt repeat in sess?
 
 
 class ActionAskQuestion(Action):
