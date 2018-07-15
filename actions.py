@@ -8,30 +8,33 @@ from rasa_core.events import SlotSet
 from pymongo import MongoClient
 client = MongoClient()
 db = client.quiz
-
-import random
-
-def get_random_Q(coll):
-    # coll refers to your collection
-    count = db.coll.count()
-    return coll.find()[random.randrange(count)] #ensure Q doesnt repeat in sess?
     
 class ActionListTopics(Action):
     def name(self):
         return 'action_listtopics'
     
     def run(self,dispatcher,tracker,domain):
-        pass
-
+        dispatcher.utter_message("Sports, Science Movie Trivia or random?")
+        return
 
 class ActionAskQuestion(Action):
     def name(self):
         return 'action_askquestion'
     def run(self, dispatcher, tracker, domain):
         topic = tracker.get_slot('topic')
-        Q = get_random_Q(topic)
-        dispatcher.utter_message(Q["Question"])
-        dispatcher.utter_message(Q["Options"])
+        if topic == 'science' :
+            collection = db.Science
+        elif topic == 'sports':
+            collection = db.Science
+        elif topic == 'movies':
+            collection = db.MovieTrivia
+        else
+            collection = db.quiz_corpus
+        pipeline = [ { "$sample": { "size" : 1 } }]
+        result = collection.aggregate(pipeline)
+        for x in list(result):
+            dispatcher.utter_message(x['Question'])
+            dispatcher.utter_message('A) '+ x['Options'][0] + '\n' + 'B) '+ x['Options'][1] + '\n' + 'C) '+ x['Options'][2]  )
         return
 
 class ActionValidate(Action):

@@ -155,14 +155,36 @@
           {
             "start": 0,
             "end": 7,
-            "value": "France ",
+            "value": "France",
             "entity": "answer"
           }
         ],
-        "text": "France "
+        "text": "France"
       }
     ],
     "regex_features": [],
-    "entity_synonyms": []
+    "entity_synonyms": [
+      {
+        "value": "sports",
+        "synonyms": [
+          "Sports",
+          "sport"
+        ]
+      },
+      {
+        "value": "movie",
+        "synonyms": [
+          "movies",
+          "Movies",
+          "Movie trivia"
+        ]
+      },
+      {
+        "value": "science",
+        "synonyms": [
+          "Science"
+        ]
+      }
+    ]
   }
 }

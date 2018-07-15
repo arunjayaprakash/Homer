@@ -168,6 +168,20 @@
           }
         ]
       }
+    ],
+    "entity_synonyms":[
+      {
+        "value" : "sports",
+        "synonyms": ["Sports","sports","sport"]
+      },
+      {
+        "value": "movie",
+        "synonyms": ["movies","Movies","Movie trivia"]
+      },
+      {
+        "value": "science",
+        "synonyms": ["Science","science"]
+      }
     ]
   }
 }
