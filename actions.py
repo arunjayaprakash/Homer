@@ -8,7 +8,9 @@ from rasa_core.events import SlotSet
 from pymongo import MongoClient
 client = MongoClient()
 db = client.quiz
-    
+
+global_answers = []
+
 class ActionListTopics(Action):
     def name(self):
         return 'action_listtopics'
@@ -34,13 +36,16 @@ class ActionAskQuestion(Action):
         result = collection.aggregate(pipeline)
         for x in list(result):
             dispatcher.utter_message(x['Question'])
-            dispatcher.utter_message('A) '+ x['Options'][0] + '\n' + 'B) '+ x['Options'][1] + '\n' + 'C) '+ x['Options'][2]  )
+            global global_answers
+            global_answers = x['Options']
+            dispatcher.utter_message('A) '+ x['Options'][0] + '\n' + 'B) '+ x['Options'][1] + '\n' + 'C) '+ x['Options'][2])
         return
 
 class ActionValidate(Action):
     def name(self):
         return 'action_validate'
     def run(self,dispatcher,tracker,domain):
+        #compare tracker.get_slot answer with global_answers array
         pass
 
 
