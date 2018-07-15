@@ -11,8 +11,8 @@ def train_nlu(data, configs, model_dir):
 	
 def run_nlu():
 	interpreter = Interpreter.load('./models/nlu/default/Homer_nlu')
-	print(interpreter.parse(""))
+	print(interpreter.parse("Saturn"))
 	
 if __name__ == '__main__':
-	train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')
-	#run_nlu()
+	#train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')
+	run_nlu()
