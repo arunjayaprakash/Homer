@@ -10,6 +10,7 @@ client = MongoClient()
 db = client.quiz
 
 global_answers = []
+global_ans = "Lorem Ipsum"
 
 class ActionListTopics(Action):
     def name(self):
@@ -38,6 +39,8 @@ class ActionAskQuestion(Action):
             dispatcher.utter_message(x['Question'])
             global global_answers
             global_answers = x['Options']
+            global global_ans
+            global_ans = x['Answer']
             dispatcher.utter_message('A) '+ x['Options'][0] + '\n' + 'B) '+ x['Options'][1] + '\n' + 'C) '+ x['Options'][2])
         return
 
@@ -45,7 +48,19 @@ class ActionValidate(Action):
     def name(self):
         return 'action_validate'
     def run(self,dispatcher,tracker,domain):
-        #compare tracker.get_slot answer with global_answers array
-        pass
+        ans = tracker.get_slot('answer')
+        if ans == '1' or ans == '2' or ans == '3':
+        ans = int(ans)
+        ans=ans-1
+            if global_answers[ans] == global_ans:
+                dispatcher.utter_message('yes')
+            else:
+                dispatcher.utter_message('no')
+        else:
+            if (ans.lower()).replace(" ","") == (global_ans.lower()).replace(" ",""):
+                dispatcher.utter_message('yes')
+            else:
+                dispatcher.utter_message('no')
+        return
 
 

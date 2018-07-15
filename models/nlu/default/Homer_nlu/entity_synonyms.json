@@ -3,5 +3,11 @@
   "sport": "sports",
   "movies": "movie",
   "movie trivia": "movie",
-  "science": "science"
+  "science": "science",
+  "option a": "0",
+  "a": "0",
+  "option b": "1",
+  "b": "1",
+  "option c": "2",
+  "c": "2"
 }
