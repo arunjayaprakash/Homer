@@ -76,7 +76,7 @@
           {
             "start": 0,
             "end": 8,
-            "value": "Option C",
+            "value": "2",
             "entity": "answer"
           }
         ]
@@ -88,7 +88,7 @@
           {
             "start": 0,
             "end": 1,
-            "value": "B",
+            "value": "1",
             "entity": "answer"
           }
         ]
@@ -100,7 +100,7 @@
           {
             "start": 9,
             "end": 17,
-            "value": "option a",
+            "value": "0",
             "entity": "answer"
           }
         ]
@@ -169,18 +169,56 @@
         ]
       }
     ],
-    "entity_synonyms":[
+    "entity_synonyms": [
       {
-        "value" : "sports",
-        "synonyms": ["Sports","sports","sport"]
+        "value": "sports",
+        "synonyms": [
+          "Sports",
+          "sports",
+          "sport"
+        ]
       },
       {
         "value": "movie",
-        "synonyms": ["movies","Movies","Movie trivia"]
+        "synonyms": [
+          "movies",
+          "Movies",
+          "Movie trivia"
+        ]
       },
       {
         "value": "science",
-        "synonyms": ["Science","science"]
+        "synonyms": [
+          "Science",
+          "science"
+        ]
+      },
+      {
+        "value": "0",
+        "synonyms": [
+          "Option A",
+          "option a",
+          "a",
+          "A"
+        ]
+      },
+      {
+        "value": "1",
+        "synonyms": [
+          "Option B",
+          "option b",
+          "b",
+          "B"
+        ]
+      },
+      {
+        "value": "2",
+        "synonyms": [
+          "Option C",
+          "C",
+          "c",
+          "option c"
+        ]
       }
     ]
   }
