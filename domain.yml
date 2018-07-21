@@ -18,18 +18,15 @@ slots:
 
 templates:
   utter_greet:
-    - 'Hello'
-    - 'Hey'
+    - 'Hello I am Homer the quizbot'
   utter_goodbye:
     - 'Bye'
     - 'Goodbye'
-  utter_ask_topic:
-    - 'Okay, so what topic would you like'
+    - 'Thank you for playing'
   
 actions:
+  - utter_greet
   - utter_goodbye
-  - utter_goodbye
-  - utter_ask_topic
   - actions.ActionListTopics
   - actions.ActionAskQuestion
   - actions.ActionValidate

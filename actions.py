@@ -28,13 +28,18 @@ class ActionAskQuestion(Action):
         if topic == 'science' :
             collection = db.Science
         elif topic == 'sports':
-            collection = db.Science
+            collection = db.Sports
         elif topic == 'movies':
             collection = db.MovieTrivia
-        else
+        else:
             collection = db.quiz_corpus
         pipeline = [ { "$sample": { "size" : 1 } }]
+        
         result = collection.aggregate(pipeline)
+        '''while (list(result)[0] == None):
+            result = collection.aggregate(pipeline)'''
+
+            
         for x in list(result):
             dispatcher.utter_message(x['Question'])
             global global_answers
@@ -49,18 +54,19 @@ class ActionValidate(Action):
         return 'action_validate'
     def run(self,dispatcher,tracker,domain):
         ans = tracker.get_slot('answer')
-        if ans == '1' or ans == '2' or ans == '3':
-        ans = int(ans)
-        ans=ans-1
+        if ans == '0' or ans == '1' or ans == '2':
+            ans = int(ans)
+            #ans=ans-1
             if global_answers[ans] == global_ans:
                 dispatcher.utter_message('yes')
             else:
-                dispatcher.utter_message('no')
+                dispatcher.utter_message('no its actually '+global_ans)
         else:
-            if (ans.lower()).replace(" ","") == (global_ans.lower()).replace(" ",""):
+
+            if (ans.lower()).replace(" ","") in (global_ans.lower()).replace(" ",""):
                 dispatcher.utter_message('yes')
             else:
-                dispatcher.utter_message('no')
-        return
+                dispatcher.utter_message('no its actually '+global_ans)
+        return [SlotSet('answer',None)]
 
 

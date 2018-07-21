@@ -28,7 +28,7 @@
           {
             "start": 0,
             "end": 6,
-            "value": "Movies",
+            "value": "movie",
             "entity": "topic"
           }
         ]
@@ -40,7 +40,7 @@
           {
             "start": 0,
             "end": 6,
-            "value": "Sports",
+            "value": "sports",
             "entity": "topic"
           }
         ]
@@ -52,7 +52,7 @@
           {
             "start": 0,
             "end": 7,
-            "value": "Science",
+            "value": "science",
             "entity": "topic"
           }
         ]
@@ -127,7 +127,7 @@
           {
             "start": 9,
             "end": 17,
-            "value": "option A",
+            "value": "0",
             "entity": "answer"
           }
         ]
@@ -167,6 +167,293 @@
             "entity": "answer"
           }
         ]
+      },
+      {
+        "text": "Science",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "science",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "Choose movies",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "movie",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "okay give me a quiz on sports",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "sports",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "okay stop quiz",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "i'd like a science quiz",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "science",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "give me a quiz on movie trivia",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "movie",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "bye Homer",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "i think its option A",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "option A",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "c",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "C",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "i think its C",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 12,
+            "end": 13,
+            "value": "2",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "A",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "0",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "random",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "random",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "no specific topic ",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "random",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "science quiz",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "science",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "i think i' like a sports quiz",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "sports",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "movie trivia quiz ",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "movie",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "baking soda ",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "baking soda ",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "lonzo ball",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "lonzo ball",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "salt",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "salt",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "zero degrees celsius ",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "zero degrees celsius ",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "Absolute Zero",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Absolute Zero",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "special relativity",
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "special relativity",
+            "entity": "answer"
+          }
+        ]
+      },
+      {
+        "text": "stop quiz ",
+        "intent": "goodbye",
+        "entities": []
       }
     ],
     "entity_synonyms": [
@@ -183,7 +470,10 @@
         "synonyms": [
           "movies",
           "Movies",
-          "Movie trivia"
+          "Movie trivia",
+          "movie trivia",
+          "movies trivia",
+          "Movie"
         ]
       },
       {
@@ -199,7 +489,8 @@
           "Option A",
           "option a",
           "a",
-          "A"
+          "A",
+          "option 1"
         ]
       },
       {
@@ -208,7 +499,8 @@
           "Option B",
           "option b",
           "b",
-          "B"
+          "B",
+          "option 2"
         ]
       },
       {
@@ -217,7 +509,8 @@
           "Option C",
           "C",
           "c",
-          "option c"
+          "option c",
+          "option 3"
         ]
       }
     ]

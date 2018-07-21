@@ -1,0 +1,40 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- action_listtopics
+- action_askquestion
+- action_validate
+actions:
+- utter_greet
+- utter_goodbye
+- actions.ActionListTopics
+- actions.ActionAskQuestion
+- actions.ActionValidate
+config:
+  store_entities_as_slots: true
+entities:
+- name
+- topic
+- answer
+intents:
+- greet
+- start_quiz
+- select_topic
+- answer_question
+- goodbye
+slots:
+  answer:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  topic:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_goodbye:
+  - text: Bye
+  - text: Goodbye
+  utter_greet:
+  - text: Hello
+  - text: Hey
+topics: []
