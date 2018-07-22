@@ -20,9 +20,7 @@ templates:
   utter_greet:
     - 'Hello I am Homer the quizbot'
   utter_goodbye:
-    - 'Bye'
-    - 'Goodbye'
-    - 'Thank you for playing'
+    - 'DOH!'
   
 actions:
   - utter_greet

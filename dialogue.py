@@ -30,6 +30,7 @@ def train_dialogue(domain_file = 'domain.yml',
 	agent.persist(model_path)
 	return agent 
 '''
+
 	
 def run_weather_bot(serve_forever=True):
 	interpreter = RasaNLUInterpreter('./models/nlu/default/Homer_nlu')
@@ -41,5 +42,5 @@ def run_weather_bot(serve_forever=True):
 	return agent
 	
 if __name__ == '__main__':
-	train_dialogue()
-	#run_weather_bot()
+	#train_dialogue()
+	run_weather_bot()

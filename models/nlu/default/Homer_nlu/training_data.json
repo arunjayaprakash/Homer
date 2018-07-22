@@ -424,6 +424,22 @@
           }
         ],
         "text": "Absolute Zero"
+      },
+      {
+        "intent": "answer_question",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "special relativity",
+            "entity": "answer"
+          }
+        ],
+        "text": "special relativity"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop quiz "
       }
     ],
     "regex_features": [],

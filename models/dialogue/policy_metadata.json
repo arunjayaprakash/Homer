@@ -6,25 +6,25 @@
         "answer"
       ]
     },
-    "utter_goodbye": {
-      "slots": []
-    },
     "action_validate": {
       "slots": [
         "answer"
       ]
     },
-    "action_listtopics": {
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_askquestion": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     },
-    "action_askquestion": {
+    "action_listtopics": {
       "slots": []
     }
   },
-  "rasa_core": "0.9.8",
+  "rasa_core": "0.9.7",
   "max_histories": [
     2,
     5

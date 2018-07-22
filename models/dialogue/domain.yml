@@ -34,7 +34,7 @@ templates:
   utter_goodbye:
   - text: Bye
   - text: Goodbye
+  - text: Thank you for playing
   utter_greet:
-  - text: Hello
-  - text: Hey
+  - text: Hello I am Homer the quizbot
 topics: []
