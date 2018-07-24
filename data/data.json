@@ -355,12 +355,12 @@
         ]
       },
       {
-        "text": "i think i' like a sports quiz",
+        "text": "i think i'd like a sports quiz",
         "intent": "select_topic",
         "entities": [
           {
-            "start": 18,
-            "end": 24,
+            "start": 19,
+            "end": 25,
             "value": "sports",
             "entity": "topic"
           }
@@ -454,6 +454,66 @@
         "text": "stop quiz ",
         "intent": "goodbye",
         "entities": []
+      },
+      {
+        "text": "think i'd like a Movie Trivia quiz",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "movie",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "start a movie trivia quiz homer",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "movie",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "hey homer start a sports quiz",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "sports",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "hey Homer begin a science quiz",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "science",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "Hey Homer start a movie trivia quiz",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "movie",
+            "entity": "topic"
+          }
+        ]
       }
     ],
     "entity_synonyms": [

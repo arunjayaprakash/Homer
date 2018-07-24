@@ -19,6 +19,7 @@
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - action_validate
+    - slot{"answer": null}
 
 ## story 6
 * goodbye
@@ -141,4 +142,47 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
+
+## Generated Story 5213849655444721254
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6806432524228289987
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
     

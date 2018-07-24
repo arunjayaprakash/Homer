@@ -29,7 +29,7 @@ class ActionAskQuestion(Action):
             collection = db.Science
         elif topic == 'sports':
             collection = db.Sports
-        elif topic == 'movies':
+        elif topic == 'movie':
             collection = db.MovieTrivia
         else:
             collection = db.quiz_corpus
@@ -41,6 +41,11 @@ class ActionAskQuestion(Action):
 
             
         for x in list(result):
+            curr = tracker.get_slot('topic')
+            try:
+                dispatcher.utter_message('Asking from ' + curr)
+            except TypeError:
+                dispatcher.utter_message('Asking from random category')
             dispatcher.utter_message(x['Question'])
             global global_answers
             global_answers = x['Options']

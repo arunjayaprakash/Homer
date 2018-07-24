@@ -32,9 +32,7 @@ slots:
     type: rasa_core.slots.TextSlot
 templates:
   utter_goodbye:
-  - text: Bye
-  - text: Goodbye
-  - text: Thank you for playing
+  - text: DOH!
   utter_greet:
   - text: Hello I am Homer the quizbot
 topics: []

@@ -2,8 +2,8 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "topic",
-        "answer"
+        "answer",
+        "topic"
       ]
     },
     "action_validate": {
@@ -17,14 +17,14 @@
     "action_askquestion": {
       "slots": []
     },
-    "utter_greet": {
+    "action_listtopics": {
       "slots": []
     },
-    "action_listtopics": {
+    "utter_greet": {
       "slots": []
     }
   },
-  "rasa_core": "0.9.7",
+  "rasa_core": "0.9.8",
   "max_histories": [
     2,
     5
