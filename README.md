@@ -1,2 +1,2 @@
 # Homer
-![alt text](https://github.com/arunjayaprakash/Homer/blob/master/db/homer.png "Logo Title Text 1")
+![alt text](https://github.com/arunjayaprakash/Homer/blob/master/db/homer.png "Meet Homer")
