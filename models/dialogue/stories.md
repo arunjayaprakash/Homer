@@ -1,22 +1,36 @@
-## Generated Story 5720368412248304823
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
+## Generated Story -3779278271376853703
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
 * goodbye
     - utter_goodbye
 
-## Generated Story -2146583712685245776
+## Generated Story 5038048040486319756
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
@@ -36,934 +50,7 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -3551436239451040332
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -1874587280229141948
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4023619518597935486
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -4013524456774080803
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7021068381561971959
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2413628262481626294
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 454859784659796808
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2747483428932115091
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3281764269371220047
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1475353444548272667
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7208380565230919119
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3028067566623011351
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2241818410873758430
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 4228958889984077953
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 7410894185341797608
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -4460110596665099922
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3662020934928632264
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story 1265414230579427959
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-
-## Generated Story -859616058884964601
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 3580018981454453784
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 2747483428932115091
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 820898049246712542
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -5119930825143998071
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7078258343396887577
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 2843307773984749896
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-
-## Generated Story -9209355803810924587
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story 332080869493443353
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 735479861493157053
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
+## Generated Story 6008560782442945676
 * greet
     - utter_greet
 * select_topic{"topic": "movie"}
@@ -985,14 +72,18 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -3776767218140502439
+## Generated Story 6677602332431051312
 * greet
     - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
     - action_askquestion
 * answer_question{"answer": "2"}
     - slot{"answer": "2"}
@@ -1000,13 +91,22 @@
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * goodbye
     - utter_goodbye
+
+## Generated Story -8932366856594661455
 * greet
     - utter_greet
 * start_quiz
@@ -1018,474 +118,6 @@
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6200614446779753407
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 734741630466826635
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -859478812906899666
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6604951811220506334
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story 1069273226717793012
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3085787079230807609
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3072939239587613776
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1274483474896843444
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -1648332614697333871
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3786099020567216227
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 957041628354881570
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 1953300313314026806
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4193863437570316283
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -1495,124 +127,110 @@
     - slot{"topic": "science"}
     - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
     - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7157947261572962834
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
     - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
+    - action_validate
     - slot{"answer": null}
     - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 
-## Generated Story -1563947408899839879
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
+## Generated Story -5978093123746380345
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7936547497980308918
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
-
-## Generated Story 4901794812679822691
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
 
-## Generated Story -704794368917731447
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
+## Generated Story -5135278215117471759
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -1622,9 +240,15 @@
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -1634,72 +258,13 @@
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* goodbye
-    - utter_goodbye
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7021068381561971959
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
     - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7787821006342069504
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -1708,23 +273,20 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
+
+## Generated Story 9217537851395522007
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
 * select_topic
     - action_askquestion
 * answer_question{"answer": "home plate"}
@@ -1742,13 +304,20 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story 6837872283734413690
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
+## Generated Story -1925121611246916792
 * greet
     - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 * greet
     - utter_greet
 * start_quiz
@@ -1766,9 +335,7 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -8421170130437012890
-* start_quiz
-    - action_listtopics
+## Generated Story -6442390559994295738
 * select_topic
     - action_askquestion
 * answer_question{"answer": "home plate"}
@@ -1789,13 +356,63 @@
     - utter_greet
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8498674288274606321
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
     - action_askquestion
 * answer_question{"answer": "2"}
     - slot{"answer": "2"}
     - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -1804,10 +421,34 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * goodbye
     - utter_goodbye
 
-## Generated Story -3551436239451040332
+## Generated Story 4528754881518625795
 * greet
     - utter_greet
 * start_quiz
@@ -1846,42 +487,7 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -1632606225667192775
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -189362491427984076
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5831378493897764329
+## Generated Story -834589679775734900
 * greet
     - utter_greet
 * start_quiz
@@ -1903,36 +509,6 @@
     - slot{"answer": null}
 * goodbye
     - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-
-## Generated Story 1647053288466046882
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5085110801124144010
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
 * goodbye
     - utter_goodbye
 * select_topic
@@ -1952,637 +528,7 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -4831791713560778828
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4189771780764873486
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -4470616617649690077
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-
-## Generated Story 5542314017712382933
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5304881455793106714
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 324638690686167632
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8755431534122293954
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 592797975237483942
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3951313620064566553
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -6083280363742578545
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story -2919344002673631817
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 5938564893948625325
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 4819065513474588876
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8425284634017045854
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story 1378667693992098645
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5814883012909980345
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3901640838601118493
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2905448769496132547
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1414536047630835306
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 798305442635358736
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -654440444123286693
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 4792685588712157783
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2245046152940006351
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-
-## Generated Story 8213891727513063810
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
+## Generated Story 4583230928760163540
 * greet
     - utter_greet
 * start_quiz
@@ -2621,13 +567,125 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story 1665386527747042761
+## Generated Story -4596303770863472056
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -577546864678167288
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3124871703499810216
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6634980112368677670
 * select_topic
     - action_askquestion
 * answer_question{"answer": "home plate"}
@@ -2644,34 +702,234 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
-
-## Generated Story 1896572441629800451
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -2735438596872156608
 * greet
     - utter_greet
 * start_quiz
     - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2126194295708615309
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3186818019691137357
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
 
-## Generated Story -1813478471163521739
-* greet
-    - utter_greet
+## Generated Story -4641784852810240526
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
     - action_askquestion
 * answer_question{"answer": "2"}
     - slot{"answer": "2"}
     - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -2680,14 +938,18 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
@@ -2697,90 +959,165 @@
     - slot{"answer": "1"}
     - action_validate
     - slot{"answer": null}
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
     - slot{"answer": null}
     - action_askquestion
 * goodbye
     - utter_goodbye
 
-## Generated Story 5092917875055556263
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
+## Generated Story -1520591184336088068
+* start_quiz
+    - action_listtopics
+* select_topic
     - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
     - slot{"answer": null}
     - action_askquestion
 * goodbye
     - utter_goodbye
+
+## Generated Story -3389424035620064823
 * greet
     - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6045775068949217607
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
-
-## Generated Story 8356756638069956950
 * start_quiz
     - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
     - action_askquestion
 * goodbye
     - utter_goodbye
 
-## Generated Story 8356756110338846194
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 2283442094395457117
+## Generated Story -7867557685977656312
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
@@ -2792,43 +1129,6 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8396207056329713537
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
@@ -2860,7 +1160,358 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story 1532380216103865587
+## Generated Story 4502140461767660937
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+
+## Generated Story 2188120918750838388
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1051136118246024369
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 37982836515452652
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7694923421596503385
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7963311021848997875
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+
+## Generated Story 7494373612665517419
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4658911045522616669
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 * greet
     - utter_greet
 * select_topic{"topic": "movie"}
@@ -2882,25 +1533,30 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -1520087787431495465
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
+## Generated Story 30854397978420605
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -2909,81 +1565,24 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7474102039184726903
-* select_topic
     - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 763001312268288768
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -2349003048752370484
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
 
-## Generated Story -4393240094775192915
-* greet
-    - utter_greet
+## Generated Story -945879667263484045
 * start_quiz
     - action_listtopics
 * select_topic{"topic": "sports"}
@@ -2995,6 +1594,37 @@
     - slot{"answer": "1"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8900667389797537252
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* greet
+    - utter_greet
+
+## Generated Story -9190113754325152089
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
@@ -3006,8 +1636,62 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 
-## Generated Story -3479566825330365620
+## Generated Story -2986082656863322484
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 6400498120952461782
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
 * greet
     - utter_greet
 * start_quiz
@@ -3027,6 +1711,169 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -398117225664400306
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 6563532279875842520
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -8332561806819457557
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -7284020804225451591
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4310230740395335129
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
 * goodbye
     - utter_goodbye
 * select_topic{"topic": "movie"}
@@ -3047,10 +1894,8 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
-* goodbye
-    - utter_goodbye
 
-## Generated Story 8489047118552306018
+## Generated Story -366183245846788745
 * greet
     - utter_greet
 * start_quiz
@@ -3072,91 +1917,10 @@
     - slot{"answer": null}
 * goodbye
     - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
 
-## Generated Story 7848564504362965287
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 28025594830207883
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7208380565230919119
+## Generated Story 8640925094300579230
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
@@ -3168,26 +1932,10 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 
-## Generated Story 8431258315598131216
+## Generated Story 8319965585680201807
+* greet
+    - utter_greet
 * select_topic
     - action_askquestion
 * answer_question{"answer": "home plate"}
@@ -3204,19 +1952,41 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
-* start_quiz
-    - action_listtopics
 * greet
     - utter_greet
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -6829161897740237137
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -3225,38 +1995,35 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
 
-## Generated Story -9086264844985968564
+## Generated Story -1704809215610862798
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -2514838227835073507
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 * greet
     - utter_greet
 * start_quiz
@@ -3265,20 +2032,57 @@
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 1729916493164229251
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2054754931911476645
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 * select_topic
     - action_askquestion
 * answer_question{"answer": "home plate"}
@@ -3295,22 +2099,19 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
+* start_quiz
+    - action_listtopics
 
-## Generated Story -2007229884686175289
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
+## Generated Story -65165115651678817
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -3320,9 +2121,15 @@
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -3332,48 +2139,35 @@
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2907399129554830498
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
 * goodbye
     - utter_goodbye
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
 
-## Generated Story -3161183066817521112
+## Generated Story -7694349234360024135
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
@@ -3389,1056 +2183,6 @@
     - utter_greet
 * start_quiz
     - action_listtopics
-
-## Generated Story 1606110640116030983
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4773591904928559428
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4064689979705501762
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -5859517234007282788
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-
-## Generated Story 776844948404125441
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8449188574188355141
-* start_quiz
-    - action_listtopics
-* start_quiz
-    - action_listtopics
-
-## Generated Story -203216132349334316
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8429817246814860000
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4786186605432457620
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6506732987423159432
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 1447331024380944015
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 6727655342620339218
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-
-## Generated Story -2487203116337800232
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -218429442303362769
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-
-## Generated Story -7167085256161331699
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-
-## Generated Story 5783188039015594489
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -4806621310368970240
-* start_quiz
-    - action_listtopics
-
-## Generated Story 8282846198496727002
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 2942107427646434926
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 3854092634275084233
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -5661462157560671702
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8843642534759054195
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3155598898333204816
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-
-## Generated Story 995367597622973805
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 494889372109076556
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-
-## Generated Story 1937066818964838426
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 5907213558555034920
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -1025442486480294940
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 6621090026809389590
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-
-## Generated Story 7904024290794910037
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -1637761460069881532
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1618043030378519435
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -8922774631912976160
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3107369377051740535
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -1047101789302543154
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -152662891654275470
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-
-## Generated Story -7795396795754752162
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 6944509802746419245
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7580274059300662161
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story 7114928698969936095
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* start_quiz
-    - action_listtopics
-
-## Generated Story 8586062608857652489
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
@@ -4446,219 +2190,6 @@
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1061596722891115143
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4370803490297539046
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 6412944596378565543
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 2456861236888003775
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story -8815559004345438102
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 2274778879055403535
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8720592132071735908
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -4683,273 +2214,58 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -1874587280229141948
-* greet
-    - utter_greet
+## Generated Story 2671186066205864792
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -8035434319390617003
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6534011417613604117
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 607315701618558596
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -8719557531469800806
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7678982389858088619
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2769376706591911313
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
     - slot{"answer": null}
     - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 783390723842460537
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8522652142089944523
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -4958,67 +2274,14 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
     - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
     - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
     - action_askquestion
 * goodbye
     - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1942148704904101123
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
 * goodbye
     - utter_goodbye
 * answer_question{"answer": "golf"}
@@ -5027,2027 +2290,7 @@
     - action_validate
     - slot{"answer": null}
 
-## Generated Story 8376952589841487271
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 188583564993193189
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7692473430138326078
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 6622712091295355457
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 8529133307227135766
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6081049260457919290
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3331226045719268545
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -3762648966569482176
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -4012462919314074077
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7015397308924356794
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2176896659692226154
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -4872728411930832122
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -5879353712857872318
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 298495238895442045
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2423339639881367268
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 6694322559346957780
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -2831646060842971974
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6638713134878792149
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -8959509062979843161
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2413628262481626294
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2504293406255657546
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* start_quiz
-    - action_listtopics
-
-## Generated Story 2960723628763452566
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8551759298755943043
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4023619518597935486
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3026007220713435927
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* start_quiz
-    - action_listtopics
-
-## Generated Story -1237374103721292588
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story 6747552707462012631
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 361320922784521590
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2329335488773127184
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 645393645926678832
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 1955166117017322998
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8013395191393718217
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3028067566623011351
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -259895346708112917
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6733355389026012049
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4729909138633779235
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3113503993687899796
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -6387016585836020312
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -2146583712685245776
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3338510560465938058
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 2060609649509662361
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -294609179494768908
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3963283726938494710
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -2499851649346434699
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1911676091834875518
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 1963419876163377823
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4119017185603989098
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -9073601200585447258
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6788726280099744647
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8862036383820650380
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4872095294504838610
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 7138408619573865432
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 259598859149243317
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2099935314320032248
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -5540391359810700036
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2579540943178176851
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story 7798590969575360017
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6173164384770117341
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -548816053775918839
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 4073203143936059343
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-
-## Generated Story -7615438745116829562
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3484331248230676051
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-
-## Generated Story 6607776018860141321
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1076260022014400615
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6058901452082803970
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5677565171644934069
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 6119386187475497073
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4704875828076877682
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -5662568114336715582
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-
-## Generated Story -3281764269371220047
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 945369487056969878
+## Generated Story -8083509965006616977
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
@@ -7067,548 +2310,9 @@
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8098528498382415949
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1742119974128277701
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -5577298871241134494
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story -2395397702240862008
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 3175507007408370863
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 6812846509488866510
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 6237469131841988152
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -7818602167550460369
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -4071783498205728612
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8434919974823492776
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-
-## Generated Story -6373101577023730062
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 256442854050607798
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1475353444548272667
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 429640542070834996
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7479443823350340039
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4601800461111451383
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3069273571958016972
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5326813870176256280
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1916558172495147643
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
 * greet
@@ -7633,1401 +2337,7 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -3063203909431645185
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4933962975254346162
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1752017584222416822
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 2565454636863789230
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5713986597829788598
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-
-## Generated Story -154443014254676416
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 123047045917577386
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 5620240317495197346
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -4025285142445305822
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8611433149570739147
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -9161225204138659385
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 7219269214903443251
-* greet
-    - utter_greet
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1820023660335138617
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-* start_quiz
-    - action_listtopics
-
-## Generated Story -319619228891444939
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7072031675627971777
-* greet
-    - utter_greet
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 8498882989724458233
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 7992159786733309457
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -4512941597051714360
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 9150937584345591874
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 9044037795365787405
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 435049897526015564
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4147828429788483432
-* greet
-    - utter_greet
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -5693586007229927628
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 8089290919352087300
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4704937495031475384
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* start_quiz
-    - action_listtopics
-
-## Generated Story -5865579111212310513
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -974130790968238651
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7110899130975264347
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2782592599730411362
-* start_quiz
-    - action_listtopics
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 7659186772834395002
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -8748753621652949671
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 2536145274102011768
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8274243483275746796
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -4013524456774080803
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2397266414112258811
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5720368412248304823
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7048266475951348913
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4197548729111693312
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -9221751137381592182
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2152799327815259736
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8172124891260315941
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6676381428773767546
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 8595392202736375772
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-
-## Generated Story -8573876003417343152
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3459213357682023633
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* start_quiz
-    - action_listtopics
-
-## Generated Story -1314811741649807315
+## Generated Story -2527083442569941927
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
@@ -9043,144 +2353,32 @@
     - utter_greet
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4131964974221668834
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2148479334866976961
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-
-## Generated Story 454859784659796808
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -7139672838233831650
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
     - action_askquestion
 * answer_question{"answer": "2"}
     - slot{"answer": "2"}
@@ -9188,16 +2386,47 @@
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
 * goodbye
     - utter_goodbye
-
-## Generated Story 6511005715543741471
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
@@ -9207,15 +2436,8 @@
     - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
-* start_quiz
-    - action_listtopics
 
-## Generated Story 1915481442425325232
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
+## Generated Story -461410112403987240
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
@@ -9238,13 +2460,7 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story 7477195403330421406
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
+## Generated Story 2362927393042442522
 * greet
     - utter_greet
 * start_quiz
@@ -9266,34 +2482,6 @@
     - slot{"answer": null}
 * goodbye
     - utter_goodbye
-
-## Generated Story -9059417165774007040
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story 534464146675241655
 * greet
     - utter_greet
 * start_quiz
@@ -9315,15 +2503,6 @@
     - slot{"answer": null}
 * goodbye
     - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -748932422479587190
-* greet
-    - utter_greet
 * greet
     - utter_greet
 * start_quiz
@@ -9341,46 +2520,23 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -3246614375678429853
-* goodbye
-    - utter_goodbye
+## Generated Story -8843578231852956680
 * greet
     - utter_greet
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5729301288390786411
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
+    - action_askquestion
+* goodbye
+    - utter_goodbye
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
@@ -9390,11 +2546,10 @@
     - slot{"answer": "1"}
     - action_validate
     - slot{"answer": null}
-* select_topic
     - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -9404,40 +2559,16 @@
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 6061618880501880024
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
     - slot{"answer": null}
     - action_askquestion
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
 
-## Generated Story -9177822592549117547
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
+## Generated Story 821266941404110587
 * goodbye
     - utter_goodbye
 * answer_question{"answer": "golf"}
@@ -9446,54 +2577,7 @@
     - action_validate
     - slot{"answer": null}
 
-## Generated Story 8818995072646981841
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story -5268576255673305690
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
+## Generated Story -525072471898237681
 * greet
     - utter_greet
 * start_quiz
@@ -9502,11 +2586,20 @@
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -2845524096518301550
 * greet
     - utter_greet
 * start_quiz
@@ -9515,437 +2608,22 @@
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 2049441182798176239
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 2367983479862888065
-* greet
-    - utter_greet
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 4307756766987799592
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5928619782688031701
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 876561389393246842
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 450187007271960535
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4374006349073496076
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 * greet
     - utter_greet
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -1514047444671370609
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3238362577061485639
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3688641377099610057
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8607178815853522460
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 8296009777384136311
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story 6939601299414141408
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -9954,275 +2632,44 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1585840538729488771
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3698211221390544299
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -1900102643414974749
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7756963929629326898
-* start_quiz
-    - action_listtopics
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6988770111247240934
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8840602293010950405
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
     - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
+
+## Generated Story -6433647522847865670
 * greet
     - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story -9181935829063554362
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1987251881345429773
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -5354837367662608359
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1417262085070742093
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 1874351903248835314
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -10231,247 +2678,20 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
     - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 7377985930384192771
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story -264101536922381716
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 2408529031211551359
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8628252853007210698
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 464859172127960927
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-
-## Generated Story -7814083447109529502
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -7213957562649576448
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5948875867710139466
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
 * greet
@@ -10496,639 +2716,7 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -8679494302098302364
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -915050206031173469
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 6230374372367784100
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5607274983734757607
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5829533657789549492
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-
-## Generated Story -4747676939166745624
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2412591994466087880
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -5602036910909975284
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2251965807453826300
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 4396439825715774597
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 5264600977973826537
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 6595283611831638985
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -1821664774982368367
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -7530177829588389589
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 3357477796300699112
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6611412063545534697
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 494736622026322665
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 3784487413397298544
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 145861334936801624
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-
-## Generated Story 993740980651380553
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
+## Generated Story 650622533930432546
 * goodbye
     - utter_goodbye
 * select_topic{"topic": "science"}
@@ -11142,120 +2730,31 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
 * goodbye
     - utter_goodbye
+* greet
+    - utter_greet
 
-## Generated Story 3622512680998136101
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2610396139366132948
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
+## Generated Story 4846300958683933942
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
     - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 
-## Generated Story -7178087421844787441
+## Generated Story 6064235127540346257
 * greet
     - utter_greet
 * start_quiz
@@ -11264,88 +2763,18 @@
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
     - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5365992963861619949
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story -8551743163672622721
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 2487932104710372986
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -11354,1030 +2783,101 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-
-## Generated Story 2173107620769722629
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
     - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5080494897982084047
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story -3716691560842585228
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7493357179252432820
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 8450481740841872257
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6756384362073182247
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story 1796567586000941171
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story -3728636725040031334
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 1419899563383107801
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 5221879010679948362
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story -7938974852166604672
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -387217213623466005
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 537243660931568812
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -4402612373697060002
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5925659557450444573
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 9077839543992372485
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story 6424558435441404071
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5507657756813315622
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8912538985265435115
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8843267741606187122
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3800925310454875896
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2088301961028356780
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -197178448340126129
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 5792302422598725687
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -1537540936108727393
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 9108828478626077848
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8291740553471257136
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -11291648490048975
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8962875006652815652
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 2571401480446399919
-* greet
-    - utter_greet
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -4088703853499335499
-* start_quiz
-    - action_listtopics
-* select_topic
-    - action_askquestion
-* answer_question{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - slot{"answer": "home plate"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 * greet
     - utter_greet
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
     - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
+    - action_validate
     - slot{"answer": null}
     - action_askquestion
-* goodbye
-    - utter_goodbye
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 
-## Generated Story -4943393743725929551
+## Generated Story 97944141251135338
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 * select_topic
     - action_askquestion
 * answer_question{"answer": "home plate"}
@@ -12394,56 +2894,13 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
 
-## Generated Story 5336542638451030920
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - slot{"answer": "eights"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 3507717254879021075
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
+## Generated Story 2723497286798424472
 * greet
     - utter_greet
 * start_quiz
@@ -12465,127 +2922,83 @@
     - slot{"answer": null}
 * goodbye
     - utter_goodbye
-
-## Generated Story -7931781119306556772
 * start_quiz
     - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* start_quiz
-    - action_listtopics
-
-## Generated Story 3753255983462612964
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2263013305461020648
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* start_quiz
-    - action_listtopics
-
-## Generated Story 446784182660045709
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-* start_quiz
-    - action_listtopics
-
-## Generated Story 437702385927795685
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3962511198515845363
 * select_topic{"topic": "science"}
     - slot{"topic": "science"}
     - slot{"topic": "science"}
     - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
 * answer_question{"answer": "0"}
     - slot{"answer": "0"}
     - slot{"answer": "0"}
+    - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
     - action_askquestion
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
 
-## Generated Story -4377310643740161082
+## Generated Story -383184266783538227
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -6595835396605260402
 * greet
     - utter_greet
 * start_quiz
@@ -12628,59 +3041,93 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -4257331000116091740
+## Generated Story 8160158737112454675
 * greet
     - utter_greet
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story -690882106974288970
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 2179463804339935556
-* goodbye
-    - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -1388095821803332370
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story -3082603827031031640
+* start_quiz
+    - action_listtopics
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+
+## Generated Story -3676032945981978243
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+
+## Generated Story 570980142084950812
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -12690,9 +3137,15 @@
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -12701,6 +3154,27 @@
     - slot{"answer": "2"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
     - action_askquestion
 * goodbye
     - utter_goodbye
@@ -12708,33 +3182,34 @@
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
-
-## Generated Story 6088932708309593257
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -4117311246313018580
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * answer_question{"answer": "1"}
     - slot{"answer": "1"}
     - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
@@ -12759,7 +3234,1738 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story 1945704962225317382
+## Generated Story 7102778700262866710
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3170918287099968196
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1047727267124107553
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3789693674855923164
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 9025514177015397475
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -7366340733615820607
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3741043317465546827
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4667755742931126160
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8505040999562903609
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 1299664768861076017
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -3765221215966221131
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5061048626772477899
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -9186764810368535707
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6414249312067184140
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -1382442590770543725
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6297515474023829761
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6006407261977457421
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+
+## Generated Story 6174565321367402584
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 432367188584949479
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 6278370348484200482
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -1925121611246916792
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -278269585355129698
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1129598736106692763
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5449723119330773541
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+
+## Generated Story 4528754881518625795
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7901566765038344746
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1969451809881217150
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+
+## Generated Story 9041752624723420825
+* start_quiz
+    - action_listtopics
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3766620299001396810
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6328533974484651651
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -188286968005465764
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8795948322310013391
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7605980236290021896
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 4262590428802285661
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1907692369757024153
 * greet
     - utter_greet
 * start_quiz
@@ -12783,10 +4989,265 @@
     - utter_goodbye
 * greet
     - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story 4452382386269046669
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 * greet
     - utter_greet
 * start_quiz
     - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 947590213399492475
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1711504407117628147
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 121622141944287483
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 480231919341990368
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 8775172297180967808
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -3779278271376853703
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
@@ -12796,14 +5257,767 @@
     - slot{"answer": "1"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
 
-## Generated Story -8136711718958001304
+## Generated Story 2162054550682941406
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8509587104763297565
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 512565004575799235
+* greet
+    - utter_greet
 * start_quiz
     - action_listtopics
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -714277667751151319
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3862708119964044434
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -2152133886011549106
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -5978093123746380345
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8979485246792273341
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8816711693852655733
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story 8760057301017242788
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6826242088611444465
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5349150451250642710
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5912827102274356426
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * start_quiz
@@ -12821,19 +6035,1050 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -1193698762933645439
+## Generated Story -1681155779860568162
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6125144296257696878
+* greet
+    - utter_greet
 * start_quiz
     - action_listtopics
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8544935519594289146
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6623481994502079211
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4838062748561155407
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6677602332431051312
+* greet
+    - utter_greet
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4544961531657322036
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+
+## Generated Story -4015885573615539202
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -2791343318757774700
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -7216317120364864696
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 2344850280042837327
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
 * greet
     - utter_greet
 
-## Generated Story -6574144439711803754
+## Generated Story 2303586433709040410
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
 * start_quiz
     - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6256808930466525619
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -9096625638857882082
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5459988030107729261
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 4023897568079985152
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7204969764053350107
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -1745882948907205306
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6632987947977192421
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6599330980659582943
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1757653505368585326
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -5915907869380130807
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7008101307538962044
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 2216344826494921543
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3391009625416704607
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5001972276738980511
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 245023053473121294
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7207815689889655599
+* greet
+    - utter_greet
 * select_topic
     - action_askquestion
 * answer_question{"answer": "home plate"}
@@ -12852,6 +7097,938 @@
     - utter_goodbye
 * greet
     - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6397189937498293295
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -5301642910670856233
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 4855134572133347965
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 5501090974321276917
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3366079477969511284
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -37686690432007484
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2603537193275525523
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 4659509996299426463
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 7594741003316610690
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8115708990462455416
+* greet
+    - utter_greet
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1603857333326097160
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 6006146951484020660
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5654420902500502418
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -955061510675401259
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7132793275854215723
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 4319788787283918966
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 6151598517131278204
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5382538059505294055
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+
+## Generated Story 3425504511127110694
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1235185997948171777
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -1919959569055817316
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
 * greet
     - utter_greet
 * start_quiz
@@ -12869,7 +8046,5801 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -2222945078859095970
+## Generated Story 8848818161888256225
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -2519585301902903511
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3594335878339038580
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6376934790259609917
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5096340821125071170
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6008560782442945676
+* greet
+    - utter_greet
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5133330781873765889
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -6721168246959713565
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6938603334048560575
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2371653258810293033
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -841375331971202956
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 6459608252437584
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -9018904007773473062
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 5248874988192872714
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6348848232330234277
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7093336707452346565
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6624693536495182055
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 9031631815006461186
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 1409505833226261887
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8871983942204369848
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4269512683844006136
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3667210447422317936
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 945022636780137680
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 6320640852863163863
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8708666143064764212
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 33953041076158260
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 5459099896850523069
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 6972151956250324806
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -9097627419725234088
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1235663101468740096
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 661050596744655274
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -618998742049332254
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4962444337203649924
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4446605668326430653
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4596303770863472056
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -7832488283587417250
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5870699093635120663
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6072913036897478937
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3552813669024855305
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -6238210834557004900
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* greet
+    - utter_greet
+
+## Generated Story -7619744927579343230
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6784360561386830080
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 9126329546339334795
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 1896850166091043286
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4004736397244494384
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5713028051744771438
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6719663851695451436
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6266379197506550474
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5896700032104447933
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 1575291163377101994
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7424389596470327151
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -176522549694259122
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -208198068571566813
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -9025965086114883350
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1133781273704248346
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -4142221941864389615
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7185904110400855126
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 9217537851395522007
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6077888212349697146
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8037009023713470043
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7829515817397708097
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 7359194147037420039
+* greet
+    - utter_greet
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -3479097936725653838
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1358065020142118100
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7658982398611049466
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -2169976213778834386
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4496553073114436170
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5107895228322975477
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -13730601287509568
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 8511915950506125699
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2616345184087310644
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* start_quiz
+    - action_listtopics
+
+## Generated Story 1454214132479088540
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -6976610215131604662
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8296801739278198697
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 8498674288274606321
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4999779111982606881
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -7180587779170469085
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -820762211687302054
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -469450421257418068
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4728100827093943456
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7614795626958776621
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7997070420477859990
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7771033012666404619
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+
+## Generated Story 5476927435907308511
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -2314346127200683122
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8972038938787642251
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3298410693395743814
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+
+## Generated Story -7898246899932358149
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -2758671294263483854
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8164772087807867433
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5404568217585702499
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -3745212923773345087
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -830729098500646269
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2877657279223147542
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -546229855463351410
+* start_quiz
+    - action_listtopics
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3432055848136395973
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 4444804901134475055
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -4533309874746235945
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1768921005304716947
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1843995238601299857
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6709597716517383164
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -6786629494770380399
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -3832485974763407720
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3662510513621463994
+* greet
+    - utter_greet
+
+## Generated Story -4186843886173170145
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5526532081120677071
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -6114435695026358994
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6034149543866485809
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5432939407577560281
+* goodbye
+    - utter_goodbye
+
+## Generated Story -9076280186457177500
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5153786335755581499
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* start_quiz
+    - action_listtopics
+
+## Generated Story -6534236942063126088
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -2282855237064320415
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8545657889962895309
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+
+## Generated Story 5624138064986184129
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3440829298880198287
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5310175475780483895
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -8059654934071260840
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6525028761644801513
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3606049907739114471
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 72803250142951999
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -188051808055360462
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story -9007189637639899826
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7585434597498401551
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 8035756762443964667
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1817705178014078684
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
 * start_quiz
@@ -12909,20 +13880,2149 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
+
+## Generated Story -561656108876596604
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+
+## Generated Story -3983900044418280812
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -2627831733360572188
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
 
-## Generated Story -3194683317419306657
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
+## Generated Story 302492695769368864
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+
+## Generated Story 8357587626913502424
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7361564247527588385
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3668613732464767623
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -146667838515840928
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5593173625708654759
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6414731105003394272
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1975747491027399788
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5135278215117471759
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3873179479640554836
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3124871703499810216
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3433078179118230849
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2028704985904760425
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6413835216291561010
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4146326690874702247
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* greet
+    - utter_greet
+
+## Generated Story -4937784852532561763
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+
+## Generated Story -8030710865481302072
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 2357081587072679485
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3204087017618135646
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -9184403410731069760
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3728224786917925940
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4583230928760163540
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -632558779838528121
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6561623642236528531
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -2724136389141738907
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 7281437515234896125
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 4557175336306536207
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8945051407071749419
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6812511439059863399
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5215004843400442863
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5805968257911356095
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -4829556970142193061
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7727512920784359093
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 5233404912455794146
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+
+## Generated Story -3209983063712766345
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3523462914455971365
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 617074659283997380
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 7856883579391723349
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6004258934833791794
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -1605759670670336214
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2136879215852556035
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7186944517270165471
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
 * select_topic{"topic": "sports"}
@@ -12956,54 +16056,71 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story 1556034357089577692
+## Generated Story -6495071053450459244
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
 * answer_question{"answer": "1"}
     - slot{"answer": "1"}
     - slot{"answer": "1"}
     - action_validate
     - slot{"answer": null}
     - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
 * goodbye
     - utter_goodbye
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
 * greet
     - utter_greet
 
-## Generated Story -3753840096090432041
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
+## Generated Story -2107727293726335653
 * goodbye
     - utter_goodbye
 * select_topic{"topic": "science"}
@@ -13017,153 +16134,6 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
-
-## Generated Story 8379909861093756555
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story -5835654861181244195
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-
-## Generated Story 4491398336034932406
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8464113384329922622
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 1062195323979750791
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* greet
-    - utter_greet
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-
-## Generated Story 1111425615573481729
-* goodbye
-    - utter_goodbye
-* start_quiz
-    - action_listtopics
-
-## Generated Story -2577210687098523723
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
-* answer_question{"answer": "2"}
-    - slot{"answer": "2"}
-    - slot{"answer": "2"}
-    - action_validate
-    - slot{"answer": null}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - action_validate
-    - slot{"answer": null}
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 8777297092017285512
-* select_topic{"topic": "science"}
-    - slot{"topic": "science"}
-    - slot{"topic": "science"}
-    - action_askquestion
-* answer_question{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": "0"}
-    - slot{"answer": null}
-    - action_askquestion
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* select_topic{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - slot{"topic": "movie"}
-    - action_askquestion
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
@@ -13195,9 +16165,169 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -1620858115945301332
+## Generated Story -4917109567292589231
+* greet
+    - utter_greet
 * start_quiz
     - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5245147452740508751
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story -51207889105874870
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3051342283445766470
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4086885384083477884
+* greet
+    - utter_greet
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8782417097589027382
 * select_topic
     - action_askquestion
 * answer_question{"answer": "home plate"}
@@ -13219,7 +16349,169 @@
     - slot{"topic": "movie"}
     - action_askquestion
 
-## Generated Story -8962600614666253293
+## Generated Story -8803364364083713923
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3534297370979337981
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5467711554024595680
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3249846795896555821
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 3053801340796621458
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 7679868775879855034
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
 * select_topic{"topic": "sports"}
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
@@ -13250,6 +16542,221 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
+
+## Generated Story -2179871709710153840
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+
+## Generated Story 9131760258652584496
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -8293991388920242821
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -6199011620729899986
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5807508926995151036
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -3426362337463872600
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
@@ -13259,48 +16766,28 @@
     - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
-
-## Generated Story 2783753185646418505
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - action_validate
-    - slot{"answer": null}
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
     - action_validate
     - slot{"answer": null}
-* greet
-    - utter_greet
-
-## Generated Story -8360651665270031278
-* greet
-    - utter_greet
-* start_quiz
-    - action_listtopics
-* select_topic{"topic": "sports"}
-    - slot{"topic": "sports"}
-    - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3972271804224494516
+* greet
+    - utter_greet
 * select_topic
     - action_askquestion
 * answer_question{"answer": "home plate"}
@@ -13317,17 +16804,1358 @@
     - action_askquestion
 * goodbye
     - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8717680974306786246
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3131916187533601671
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8252715261904686382
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5803560842697168797
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8670593219427739390
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -8921473555082489750
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
 
-## Generated Story 6213495245890279609
+## Generated Story 1831457128746734129
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
     - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7978335996545123376
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6489329864930926539
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -2280234896727787248
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -5788379838761959572
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6750926449829280377
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5205487843338226922
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4744386615728475528
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5385714298218279369
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3163324211949720042
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+
+## Generated Story -8825784125606129040
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6507267170655778033
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 3431873522679271691
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 1620218902543475996
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -7350387500530395489
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -463134413622594093
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -2220335274961813069
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7452974502755792301
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story 7205581307231639042
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -2762838066515863500
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3885666485367877175
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4729079968850998906
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6998793256803147779
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4237377149668111095
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 4068819404488875506
 * select_topic{"topic": "movie"}
     - slot{"topic": "movie"}
     - slot{"topic": "movie"}
@@ -13351,16 +18179,147 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story 8053213181099002824
+## Generated Story -4352412820595091656
 * greet
     - utter_greet
-
-## Generated Story 2092260272299982771
-* answer_question{"answer": "golf"}
-    - slot{"answer": "golf"}
-    - slot{"answer": "golf"}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -834589679775734900
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1634262083070726499
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3815754245780015456
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4505627944257583106
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
 * goodbye
     - utter_goodbye
 * greet
@@ -13371,20 +18330,4498 @@
     - slot{"topic": "sports"}
     - slot{"topic": "sports"}
     - action_askquestion
-* answer_question{"answer": "1"}
-    - slot{"answer": "1"}
-    - slot{"answer": "1"}
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
+* greet
+    - utter_greet
 
-## Generated Story 854915485066538047
+## Generated Story 5421732708127755133
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
 * answer_question{"answer": "golf"}
     - slot{"answer": "golf"}
     - slot{"answer": "golf"}
     - action_validate
     - slot{"answer": null}
+    - action_askquestion
 * goodbye
     - utter_goodbye
+
+## Generated Story 136701080399446571
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7278177359691236662
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 7493508689818610850
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+
+## Generated Story 3553702842943499647
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -5001685195976385492
+* greet
+    - utter_greet
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 4706719400235282579
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8189601509544451516
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5093173539449226639
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -7335325406853941895
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3234322042016424951
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8639844493858458490
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story 5082336376491519100
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 302587405813258098
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7727205310562739421
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+
+## Generated Story 5463951384160483029
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3089577783338804683
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -1890597151795527198
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8704912139976659362
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 6736971658147064698
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7074747724621167660
+* start_quiz
+    - action_listtopics
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -8932366856594661455
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -7813560357107971317
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -444054630218137043
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1124530916999917678
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 6907362143053737065
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -6442390559994295738
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8018767326912999852
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3830276575107405848
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3433767628713316647
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story -5013647858125448027
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2918085972089629944
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6551684331651948839
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3227291942826450328
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6583501377171205973
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -2968670717149074844
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8730274633760698141
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 411338088897499616
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8773284291536510097
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1382461233225056731
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story 1831243551410912488
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+
+## Generated Story -5949457036990333777
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -4151364859528125954
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 3885857157275991513
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -2783481059338737600
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1654383067182494872
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+
+## Generated Story 3626510062403782286
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 4804169445086770216
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1393767134748519462
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7688296108248794623
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8228777386571404370
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6883671079714045558
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3705266208448621676
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -973946816068351281
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 4302368672645607493
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8997788455609363291
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3497567837806163435
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3198150625017785054
+* greet
+    - utter_greet
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4458637898664458181
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 5898565778892286082
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -5701270167334161718
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2099585697457410933
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story -7971357421881920925
+* start_quiz
+    - action_listtopics
+* start_quiz
+    - action_listtopics
+
+## Generated Story 2653749890126544509
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5961447563311087881
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6913558077874679258
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8864108715800651308
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3572551535392680392
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 5644832503919495512
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5323595577813043883
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -6148363957389685175
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1422900518022972328
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story -6033664356646279279
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8067047158084718664
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -465319387098998588
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story 5937324339216151566
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5535035305431519393
+* start_quiz
+    - action_listtopics
+
+## Generated Story 2450911639958438991
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4850442756493323149
+* start_quiz
+    - action_listtopics
+* greet
+    - utter_greet
+
+## Generated Story -3715757282793956637
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2165012731017487049
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7707340851243945849
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* start_quiz
+    - action_listtopics
+
+## Generated Story -577546864678167288
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4655493699109266598
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -6505622769298808588
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6388635368879445257
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story -4767917180240292116
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6845458723160612787
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1301216560043069955
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2652504576575940583
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6830185152541507070
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* start_quiz
+    - action_listtopics
+
+## Generated Story -1675898790082875478
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -2592687672310233965
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -2748759287587458722
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8515877748898995943
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5548404407947872272
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5038048040486319756
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - slot{"answer": "eights"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3230540177957153678
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+
+## Generated Story -8887934040293391507
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+
+## Generated Story -1298658948066081541
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+
+## Generated Story -4897465819546364266
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 8537453305861525051
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4222354750641907311
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 190423691121595119
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+
+## Generated Story 8464678287230089447
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7717639546342305810
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* goodbye
+    - utter_goodbye
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+
+## Generated Story -827009480729853181
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 7204504039590790958
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4645545527662959262
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story -682842216396842236
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* greet
+    - utter_greet
+
+## Generated Story 5783360771496861188
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+
+## Generated Story 5924162699420912760
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - slot{"answer": "homeland"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+* select_topic
+    - action_askquestion
+* answer_question{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - slot{"answer": "home plate"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "1"}
+    - slot{"answer": "1"}
+    - slot{"answer": "1"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - slot{"topic": "sports"}
+    - action_askquestion
+* answer_question{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - slot{"answer": "golf"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+## Generated Story 4068497123697837188
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": "0"}
+    - slot{"answer": null}
+    - action_askquestion
 * goodbye
     - utter_goodbye
 

@@ -514,6 +514,57 @@
             "entity": "topic"
           }
         ]
+      },
+      {
+        "text": "hey Homer start a quiz",
+        "intent": "start_quiz",
+        "entities": []
+      },
+      {
+        "text": "Homer begin a quiz session",
+        "intent": "start_quiz",
+        "entities": []
+      },
+      {
+        "text": "start quiz please",
+        "intent": "start_quiz",
+        "entities": []
+      },
+      {
+        "text": "random topic",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "random",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "play from random topics",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "random",
+            "entity": "topic"
+          }
+        ]
+      },
+      {
+        "text": "i'd like to play from random topics",
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "random",
+            "entity": "topic"
+          }
+        ]
       }
     ],
     "entity_synonyms": [

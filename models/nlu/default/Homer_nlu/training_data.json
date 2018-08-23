@@ -500,6 +500,54 @@
           }
         ],
         "text": "Hey Homer start a movie trivia quiz"
+      },
+      {
+        "intent": "start_quiz",
+        "text": "hey Homer start a quiz"
+      },
+      {
+        "intent": "start_quiz",
+        "text": "Homer begin a quiz session"
+      },
+      {
+        "intent": "start_quiz",
+        "text": "start quiz please"
+      },
+      {
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "random",
+            "entity": "topic"
+          }
+        ],
+        "text": "random topic"
+      },
+      {
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "random",
+            "entity": "topic"
+          }
+        ],
+        "text": "play from random topics"
+      },
+      {
+        "intent": "select_topic",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "random",
+            "entity": "topic"
+          }
+        ],
+        "text": "i'd like to play from random topics"
       }
     ],
     "regex_features": [],

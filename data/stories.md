@@ -185,4 +185,76 @@
     - slot{"answer": "0"}
     - action_validate
     - slot{"answer": null}
-    
+
+## Generated Story 196083549512936309
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "science"}
+    - slot{"topic": "science"}
+    - action_askquestion
+* answer_question{"answer": "spring"}
+    - slot{"answer": "spring"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "tesla"}
+    - slot{"answer": "tesla"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"answer": "astronomy"}
+    - slot{"answer": "astronomy"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "2"}
+    - slot{"answer": "2"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* select_topic{"topic": "movie"}
+    - slot{"topic": "movie"}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "0"}
+    - slot{"answer": "0"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "owls"}
+    - slot{"answer": "owls"}
+    - action_validate
+    - action_askquestion
+* goodbye
+    - utter_goodbye
+
+
+## Generated Story -5477524980533191259
+* greet
+    - utter_greet
+* start_quiz
+    - action_listtopics
+* select_topic{"topic": "random"}
+    - slot{"topic": "random"}
+    - action_askquestion
+* answer_question{"answer": "piglet"}
+    - slot{"answer": "piglet"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* answer_question{"answer": "sporty"}
+    - slot{"answer": "sporty"}
+    - action_validate
+    - slot{"answer": null}
+    - action_askquestion
+* goodbye
+    - utter_goodbye

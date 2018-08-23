@@ -14,13 +14,13 @@
     "utter_goodbye": {
       "slots": []
     },
-    "action_askquestion": {
+    "utter_greet": {
       "slots": []
     },
     "action_listtopics": {
       "slots": []
     },
-    "utter_greet": {
+    "action_askquestion": {
       "slots": []
     }
   },
