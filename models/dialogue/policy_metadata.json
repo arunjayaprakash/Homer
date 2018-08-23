@@ -2,8 +2,8 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "answer",
-        "topic"
+        "topic",
+        "answer"
       ]
     },
     "action_validate": {
@@ -14,19 +14,19 @@
     "utter_goodbye": {
       "slots": []
     },
+    "action_askquestion": {
+      "slots": []
+    },
     "utter_greet": {
       "slots": []
     },
     "action_listtopics": {
       "slots": []
-    },
-    "action_askquestion": {
-      "slots": []
     }
   },
-  "rasa_core": "0.9.8",
+  "rasa_core": "0.9.6",
   "max_histories": [
-    2,
+    5,
     5
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",

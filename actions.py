@@ -7,7 +7,8 @@ from rasa_core.events import SlotSet
 
 from pymongo import MongoClient
 client = MongoClient()
-db = client.quiz
+db = client.test
+collection = db.docs
 
 global_answers = []
 global_ans = "Lorem Ipsum"
@@ -17,7 +18,7 @@ class ActionListTopics(Action):
         return 'action_listtopics'
     
     def run(self,dispatcher,tracker,domain):
-        dispatcher.utter_message("Sports, Science Movie Trivia or random?")
+        dispatcher.utter_message("Sports, Science, Movie Trivia or random?")
         return
 
 class ActionAskQuestion(Action):
@@ -26,14 +27,22 @@ class ActionAskQuestion(Action):
     def run(self, dispatcher, tracker, domain):
         topic = tracker.get_slot('topic')
         if topic == 'science' :
-            collection = db.Science
+            pipeline = [
+                { "$match": { "Category": "Science"}},
+                { "$sample": {"size": 1 }}
+            ]
         elif topic == 'sports':
-            collection = db.Sports
+            pipeline = [
+                { "$match": { "Category": "Sports"}},
+                { "$sample": {"size": 1 }}
+            ]
         elif topic == 'movie':
-            collection = db.MovieTrivia
+            pipeline = [
+                { "$match": { "Category": "Movie Trivia"}},
+                { "$sample": {"size": 1 }}
+            ]
         else:
-            collection = db.quiz_corpus
-        pipeline = [ { "$sample": { "size" : 1 } }]
+            pipeline = [ { "$sample": { "size" : 1 } }]
         
         result = collection.aggregate(pipeline)
         '''while (list(result)[0] == None):
